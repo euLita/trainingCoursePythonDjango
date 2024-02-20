@@ -103,9 +103,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+# LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+# TIME_ZONE = "UTC"
 
 USE_I18N = True
 
@@ -121,3 +121,11 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+      TIME_ZONE = 'America/Recife'
+      LANGUAGE_CODE = 'pt-br'
+      DATE_FORMAT = 'd/m/Y'
+      DATE_INPUT_FORMATS = ('%d/%m/%Y',)
+      DATETIME_FORMAT = 'd/m/Y H:i'
+      DATETIME_INPUT_FORMATS = ('%d/%m/%Y %H:%M:%S', '%d/%m/%Y %H:%M')
