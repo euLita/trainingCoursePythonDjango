@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "bdtd"
 ]
 
 MIDDLEWARE = [
@@ -123,9 +124,9 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-      TIME_ZONE = 'America/Recife'
-      LANGUAGE_CODE = 'pt-br'
-      DATE_FORMAT = 'd/m/Y'
-      DATE_INPUT_FORMATS = ('%d/%m/%Y',)
-      DATETIME_FORMAT = 'd/m/Y H:i'
-      DATETIME_INPUT_FORMATS = ('%d/%m/%Y %H:%M:%S', '%d/%m/%Y %H:%M')
+TIME_ZONE = 'America/Manaus'
+LANGUAGE_CODE = 'pt-br'
+DATE_FORMAT = 'd/m/Y'
+DATE_INPUT_FORMATS = ('%d/%m/%Y',)
+DATETIME_FORMAT = 'd/m/Y H:i'
+DATETIME_INPUT_FORMATS = ('%d/%m/%Y %H:%M:%S', '%d/%m/%Y %H:%M')
