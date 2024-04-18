@@ -1,2 +1,3 @@
-# trainingCoursePythonDjango
-Course Python and Django
+# First project with Django
+
+> Course Python and Django
